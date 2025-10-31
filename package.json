@@ -1,0 +1,35 @@
+{
+  "name": "aplicacionproyectosoftware",
+  "version": "1.0.0",
+  "description": "Este proyecvto va atener una arquitectura monolítica patrón de arquitectura **por capas MVC (Modelo Vista controlador)**\r ```\r Capa de presentación (vista): Es la capa que interactua con el usuario.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tlcabrera/AplicacionProyectoSoftware.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tlcabrera/AplicacionProyectoSoftware/issues"
+  },
+  "homepage": "https://github.com/Tlcabrera/AplicacionProyectoSoftware#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2",
+    "path": "^0.12.7",
+    "url": "^0.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

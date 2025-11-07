@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Este proyecvto va atener una arquitectura monolítica patrón de arquitectura **por capas MVC (Modelo Vista controlador)**\r ```\r Capa de presentación (vista): Es la capa que interactua con el usuario.",
   "main": "index.js",
-  "type": "module",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
